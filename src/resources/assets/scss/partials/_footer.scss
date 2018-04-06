@@ -1,0 +1,95 @@
+.footer {
+
+  width: 100%;
+
+  .top-footer {
+    //26px for each side + 24px .container = 50px
+    padding: 48px 26px 28px;
+    background: #004266;
+
+    font-size: 14px;
+    line-height: 21px;
+
+    &.flex-container, .flex-container {
+      justify-content: space-between;
+    }
+
+
+    .left-side {
+
+      .logo {
+        background: url(../../images/home/cdljn-logo-white.png) center no-repeat;
+        background-image: url(../../images/home/cdljn-logo-white.svg);
+        width: 250px; height: 35px;
+        margin-bottom: 23px;
+      }
+
+      p {
+        margin-bottom: 14px;
+        width: 295px;
+      }
+
+    }
+
+    .right-side {
+
+      width: 520px;
+
+      &.flex-container, .flex-container {
+        justify-content: space-between;
+      }
+
+      .list-column {
+
+        h5 {
+          opacity: 0.4;
+          font-weight: 600;
+          letter-spacing: 1px;
+          margin-bottom: 24px;
+          text-transform: uppercase;
+        }
+
+        p {
+          margin-bottom: 4px;
+        }
+
+      }
+
+      .social-icons-container {
+        margin-top: 24px;
+        a {
+          display: inline-block;
+        }
+
+        .cnb-twitter {
+          margin-left: 16px;
+        }
+      }
+    }
+
+  }
+
+  .bottom-footer {
+    //26px for each side + 24px .container = 50px
+    padding: 17px 26px 15px;
+    background-color: #003857;
+
+    &.flex-container, .flex-container {
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    h6 {
+
+      &.copyright {
+        color: #3CDD5A;
+      }
+
+      &.policy {
+        color: #FFFFFF;
+      }
+
+    }
+
+  }
+}

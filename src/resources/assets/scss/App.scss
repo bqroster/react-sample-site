@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+}
+
+// Contains all Elements
+.main-container {
+  width: 100%;
+}
+
+// Container for each 'row'
+.container {
+  width: 100%;
+  //max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+  // Container for each 'row'
+  .container {
+
+  }
+
+}

@@ -1,0 +1,84 @@
+
+.post-slim-box {
+
+  margin: 0 auto;
+  padding: 18px 13px 18px 31px;
+  max-width: 960px;
+
+  border: 1px solid #D4D5D7;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 2px 0 rgba(18,41,81,0.22);
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  .company-logo {
+    img {
+      width: 100%;
+      max-width: 112px;
+    }
+  }
+
+  .company-info {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 38px;
+
+    text-align: left;
+
+    h5.name {
+      color: #A8ABAF;
+      font-family: 'proxima_nova';
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 21px;
+      white-space: nowrap;
+    }
+
+    p.position {
+      color: #464D54;
+      font-family: proxima_nova;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 16px;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px 0;
+
+    font-size: 14px;
+    line-height: 21px;
+
+    &.show-details {
+      width: 130px;
+      border: 1px solid #D4D5D7;
+      font-family: 'proxima_nova';
+    }
+
+    &.apply-now {
+      width: 130px;
+      background-color: #009CF0;
+      border: 0;
+      color: #fff;
+
+      font-family: 'proxima_nova_bold';
+
+      &.applied-job {
+        background-color: #FFD257;
+      }
+    }
+
+  }
+
+}
+
+
+
+
+

@@ -1,0 +1,64 @@
+.splash-form {
+
+  width: 420px;
+  margin: 0 auto;
+
+  &.flex-container, .flex-container {
+    justify-content: space-between;
+  }
+
+  .form-control-input {
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    height: 44px;
+    width: 180px;
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    .location {
+
+    }
+
+    input {
+      width: 100%;
+    }
+
+  }
+
+  button {
+    height: 44px;
+    width: 230px;
+    border-radius: 3px;
+    background-color: #FFD257;
+    box-shadow: 0 6px 10px 0 rgba(0, 56, 87, 0.32);
+    text-transform: uppercase;
+
+    color: #2C3545;
+    font-family: 'proxima_nova';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+
+  .splash-form {
+
+    .form-control-input {
+      width: 180px;
+      margin-right: 10px;
+    }
+
+    button {
+      width: 230px;
+    }
+  }
+
+}

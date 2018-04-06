@@ -1,0 +1,64 @@
+/* Type proxima_nova Font Declaration */
+@font-face {
+  font-family: 'proxima_nova';
+  src: url('../fonts/proximanova/proximanova-regular-webfont.woff2') format("woff2"),
+       url('../fonts/proximanova/proximanova-regular-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_bold';
+  src: url('../fonts/proximanova/proximanova-bold-webfont.woff2') format("woff2"),
+       url('../fonts/proximanova/proximanova-bold-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cdl-job-now';
+  src: url('../font/cdl-job-now.eot?48584731');
+  src: url('../font/cdl-job-now.eot?48584731#iefix') format('embedded-opentype'),
+  url('../font/cdl-job-now.woff2?48584731') format('woff2'),
+  url('../font/cdl-job-now.woff?48584731') format('woff'),
+  url('../font/cdl-job-now.ttf?48584731') format('truetype'),
+  url('../font/cdl-job-now.svg?48584731#cdl-job-now') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Import Fontello class
+@import '../css/cdl-job-now-codes.css';
+
+
+$font_regular:  'proxima_nova';
+$font_bold:     'proxima_nova_bold';
+
+
+.title {
+  color: $title;
+  font-family: 'proxima_nova_bold';
+}
+
+.sub-title {
+  color: $sub-title;
+  font-family: 'proxima_nova_bold';
+}
+
+.paragraph {
+  color: $paragraph;
+}
+
+
+.icon-save-jobs {
+  font-family: "cdl-job-now";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.icon-save-jobs-empty { color: #A8ABAF; }
+.icon-save-jobs-saved { color: #FFD257; }

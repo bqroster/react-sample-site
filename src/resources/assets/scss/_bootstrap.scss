@@ -1,0 +1,38 @@
+@mixin input-defaults {
+  font-family: $font_regular;
+  color: $ph-color;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.hide-sm {
+  display: none;
+}
+
+input, select, textarea { @include input-defaults; }
+
+::-webkit-input-placeholder {
+  @include input-defaults;
+}
+
+:-ms-input-placeholder {
+  @include input-defaults;
+}
+
+:-moz-placeholder {
+  @include input-defaults;
+}
+
+::-moz-placeholder {
+  @include input-defaults;
+}
+
+@media only screen and (min-width: 980px) {
+
+  .hide-sm {
+    display: block;
+  }
+
+}
+
