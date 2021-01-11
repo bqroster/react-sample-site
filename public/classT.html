@@ -1,0 +1,28 @@
+<script>
+
+    class Animal {
+        constructor(name) {
+            this.name = name;
+        }
+
+        speak() {
+            console.log(this.name + ' makes a noise.');
+        }
+    }
+
+    class Dog extends Animal {
+        // if constructor is omited works same, not needed so far,
+        // use only when need to build something new for the extended class
+        constructor(name) {
+            super(name); // call the super class constructor and pass in the name parameter
+        }
+
+        speak() {
+            console.log(this.name + ' barks.');
+        }
+    }
+
+    var d = new Dog('Mitzie');
+    d.speak(); // Mitzie barks.
+
+</script>

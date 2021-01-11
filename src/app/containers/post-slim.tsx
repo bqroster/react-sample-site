@@ -20,7 +20,7 @@ export const mapStateToProps = (state: StoreType, ownProps: PostSlimPropsType) =
 
 const mapDispatchToProps = (dispatch: Dispatch<StoreType>) => {
     return {
-        toggleSaveJob: (payload: SavedJobs) => dispatch({type: 'SAVE_JOB', payload: payload}),
+        toggleSaveJob: (payload: SavedJobs) => dispatch({type: 'REQUEST_SAVE_JOB', payload: payload}),
         toggleAppliedJob: (payload: AppliedJobs) => dispatch({type: 'APPLIED_JOB', payload: payload})
     };
 };

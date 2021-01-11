@@ -29,5 +29,5 @@ const mainApp = (
     </Provider>
 );
 
-ReactDOM.render( mainApp, document.getElementById('root') as HTMLElement );
+ReactDOM.render( mainApp, document.getElementById('⚛') as HTMLElement );
 registerServiceWorker();

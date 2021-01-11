@@ -7,7 +7,7 @@ import { CoverText } from '~/@types/cover-text';
 // Styles
 // The component that calls this `CONTAINER` must define / declare its own style
 
-const SplashCoverText = (props: CoverText) => {
+const CoverText = (props: CoverText) => {
 
     // Default TAG Values if not present on the props
     let titleTag        = props.title.tag    || 'h2';
@@ -19,12 +19,14 @@ const SplashCoverText = (props: CoverText) => {
     let body     = React.createElement  ( bodyTag,      { className: 'paragraph' }, props.body.text     );
 
     return (
-        <div className="splash-cover-text">
-            {title}
-            {subTitle}
-            {body}
+        <div className="cover_text__container">
+            <div className="cover__text">
+                {title}
+                {subTitle}
+                {body}
+            </div>
         </div>
     );
 };
 
-export default SplashCoverText;
+export default CoverText;

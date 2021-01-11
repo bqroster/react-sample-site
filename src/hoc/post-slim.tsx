@@ -29,7 +29,7 @@ class PostSlim extends React.Component<PostSlimPropsType, PostSlimStateType> {
         let applyNow;
 
         // Save Jobs Style / Css
-        let cssSavedJobsDflt = 'icon-save-jobs ';
+        let cssSavedJobsDflt = 'icon-anything-here ';
         let cssSavedJobs = cssSavedJobsDflt +
             (this.props.getInSavedJobs ?
                 'icon-save-jobs-saved icon-star' :

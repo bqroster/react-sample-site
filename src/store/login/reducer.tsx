@@ -19,7 +19,7 @@ export const LoginReducers = ( state = initialState, actions: ReducerActions<Log
                 ...state,
                 user_id:         980,
                 username:        'Jose Burgos',
-                email:           'jose@careernowbrands.com',
+                email:           'jose@bqroster.com',
                 isAuthenticated: true,
                 token:           'ZKsafK2fjK,S92LKSI%292K_#@ALSIsks'
             };

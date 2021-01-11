@@ -1,10 +1,10 @@
-.cover_text--container {
+.cover_text__container {
 
   background-color: #fff;
   padding: 60px 0 70px;
   text-align: center;
 
-  .splash-cover-text {
+  .cover__text {
 
     margin: 0 auto;
     width: 343px;
@@ -34,11 +34,11 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .cover_text--container {
+  .cover_text__container {
 
     padding: 80px 0;
 
-    .splash-cover-text {
+    .cover__text {
 
       width: 707px;
 

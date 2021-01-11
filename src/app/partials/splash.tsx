@@ -12,7 +12,7 @@ const Splash = () => {
     return (
         <div className="splash">
             <div className="splash-container">
-                <h1>Find CDL jobs near you</h1>
+                <h1>Find IT jobs near you</h1>
                 <FormFindJobs />
             </div>
         </div>

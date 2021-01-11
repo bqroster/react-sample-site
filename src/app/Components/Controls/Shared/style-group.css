@@ -1,0 +1,13 @@
+
+.container {
+    width: 190px;
+    padding: 8px;
+    background-color: beige;
+}
+
+
+.newcontainer {
+    width: 210px;
+    padding: 12px 4px 24px;
+    background-color: burlywood;
+}

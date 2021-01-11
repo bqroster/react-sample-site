@@ -1,0 +1,50 @@
+:root {
+  --border-children: 2px solid #f00;
+}
+
+.container {
+  width: 100%;
+}
+
+.newcontainer {
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+label {
+  display: flex;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+
+}
+
+input[type="radio"] {
+
+}
+
+.children {
+
+}
+
+/* Checkbox Aligns */
+.left {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left-children {
+  text-align: left;
+}
+.right-children {
+  text-align: right;
+}

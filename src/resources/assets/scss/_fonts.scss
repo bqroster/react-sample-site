@@ -16,19 +16,19 @@
 }
 
 @font-face {
-  font-family: 'cdl-job-now';
-  src: url('../font/cdl-job-now.eot?48584731');
-  src: url('../font/cdl-job-now.eot?48584731#iefix') format('embedded-opentype'),
-  url('../font/cdl-job-now.woff2?48584731') format('woff2'),
-  url('../font/cdl-job-now.woff?48584731') format('woff'),
-  url('../font/cdl-job-now.ttf?48584731') format('truetype'),
-  url('../font/cdl-job-now.svg?48584731#cdl-job-now') format('svg');
+  font-family: 'any-image-here';
+  src: url('../font/any-image-here.eot?48584731');
+  src: url('../font/any-image-here.eot?48584731#iefix') format('embedded-opentype'),
+  url('../font/any-image-here.woff2?48584731') format('woff2'),
+  url('../font/any-image-here.woff?48584731') format('woff'),
+  url('../font/any-image-here.ttf?48584731') format('truetype'),
+  url('../font/any-image-here.svg?48584731#any-image-here') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 // Import Fontello class
-@import '../css/cdl-job-now-codes.css';
+@import '../css/any-image-here-codes.css';
 
 
 $font_regular:  'proxima_nova';
@@ -49,9 +49,8 @@ $font_bold:     'proxima_nova_bold';
   color: $paragraph;
 }
 
-
-.icon-save-jobs {
-  font-family: "cdl-job-now";
+.icon-any-image-here {
+  font-family: "any-image-here";
   font-style: normal;
   font-weight: normal;
   speak: none;
